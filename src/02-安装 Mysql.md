@@ -2,7 +2,7 @@
 
 ## 1、配置
 
-![image](./image/Docker-Desktop.png)
+![image](image/Docker-Desktop.png)
 
 > 其中 `aliyuncs` 为 阿里云 的镜像加速器，可参考如下
 >
