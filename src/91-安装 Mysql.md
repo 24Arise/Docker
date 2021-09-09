@@ -1,4 +1,4 @@
-# Docker 安装 Mysql
+# 安装 Mysql
 
 ## 1、配置
 

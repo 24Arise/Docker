@@ -1,4 +1,4 @@
-# Docker 安装 Vim
+# 安装 Vim
 
 > `Docker` 找不到 `Vim` 命令
 
