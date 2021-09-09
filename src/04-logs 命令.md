@@ -1,17 +1,18 @@
+# Logs 命令
 
-- 语法
+- 命令
 
 > `docker logs [OPTIONS] CONTAINER`
 >
 > - OPTIONS说明：
->
->   `-f`：跟踪日志输出
->
->   `--since`：显示某个开始时间的所有日志
->
->   `-t`：显示时间戳
->
->   `--tail`：仅列出最新N条容器日志
+    >
+    >   `-f` : 跟踪日志输出
+    >
+    >   `--since` :显示某个开始时间的所有日志
+    >
+    >   `-t` : 显示时间戳
+    >
+    >   `--tail` :仅列出最新N条容器日志
 
 - 实例
 
@@ -46,7 +47,7 @@ SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorSta
 2021-09-08 13:38:05.347  INFO 1 --- [           main] o.s.b.f.s.DefaultListableBeanFactory     : Overriding alias 'hzero-interfaceFeignClient' definition for registered name 'org.hzero.boot.interfaces.infra.feign.InterfaceFeignClient' with new target name 'org.hzero.boot.interfaces.monitor.feign.HitfRemoteService'
 ```
 
-> 查看容器 `hzero-iam` 从 2021年09月08日 后的最新 10 条日志
+> 查看容器 `hzero-iam` 从2021年09月08日后的最新10条日志
 >
 > `docker logs --since="2016-09-08" --tail=10 hzero-iam`
 
